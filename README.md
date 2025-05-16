@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Este es un proyecto de Next.js iniciado con `create-next-app`.
 
 ## Primeros Pasos
 
@@ -6,7 +6,7 @@ Para obtener una copia local y ponerla en funcionamiento, sigue estos sencillos 
 
 ### Prerrequisitos
 
-Asegúrate de tener Node.js y npm instalados.
+Asegúrate de tener Node.js y npm (o yarn) instalados en tu sistema.
 
 ### Instalación
 

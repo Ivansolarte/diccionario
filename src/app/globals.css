@@ -1,1 +1,8 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+
+/* d:\PruebasTrabajo\MIMS-Notary\diccionario\src\app\globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Inconsolata:wght@400;700&display=swap'); /* Ejemplo */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

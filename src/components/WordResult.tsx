@@ -1,7 +1,7 @@
 import { WordData } from '@/types/Word';
 import { PlayIcon } from '@heroicons/react/24/solid';
 
-interface Props {
+interface Props { 
   wordData: WordData;
 }
 
@@ -9,15 +9,12 @@ interface Props {
  * Componente para mostrar los resultados de la búsqueda de una palabra.
  * Muestra la palabra, su fonética, un botón para reproducir audio (si está disponible),
  * y sus significados categorizados por parte del discurso.
- * @param {Props} props - Propiedades del componente.
- * @param {WordData} props.wordData - Objeto con los datos de la palabra a mostrar.
- * @returns {JSX.Element} El componente renderizado con la información de la palabra.
  */
-export const WordResult: React.FC<Props> = ({ wordData }) => {
+export const WordResult = ({ wordData }:Props) => {
   const firstAudio = wordData.phonetics?.find(p => p.audio)?.audio;
 
   /**
-   * Reproduce el primer archivo de audio disponible para la palabra.
+   * Reproduce el primer archivo de audio disponible para la pronunciación de la palabra.
    */
   const playAudio = () => {
     if (firstAudio) {

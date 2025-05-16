@@ -3,5 +3,5 @@ export const fetchWord = async (word: string) => {
   if (!response.ok) {
     throw new Error('Palabra no encontrada');
   }
-  return response.json();
+  return response;
 };

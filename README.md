@@ -10,27 +10,15 @@ Asegúrate de tener Node.js y npm (o yarn) instalados en tu sistema.
 
 ### Instalación
 
-1.  **Clona el repositorio:**
-    ```bash
-    git clone <YOUR_REPOSITORY_URL>
+1.  **Clona el repositorio:**  
+    https://github.com/Ivansolarte/diccionario.git
+
     cd diccionario 
-    ```
-    *(Replace `<YOUR_REPOSITORY_URL>` with the actual URL of your repository).*
+    https://github.com/Ivansolarte/diccionario
 2.  **Install dependencies:**
-    ```bash
+ 
     npm install
-    # or
-    # yarn install
-    ```
-    *This command installs all necessary packages defined in the `package.json` file.*
-
-First, run the development server:
-
-```bash
 npm run dev
-# or
-yarn dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
